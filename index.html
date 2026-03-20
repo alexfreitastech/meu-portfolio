@@ -1,0 +1,408 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portfólio</title>
+  <link rel="stylesheet" href="styles.css">
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&family=DM+Sans:wght@300;400;500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+</head>
+<body>
+
+  <nav class="navbar" id="navbar">
+    <ul class="nav-links">
+      <li><a href="#sobre">Sobre mim</a></li>
+      <li><a href="#formacao">Formação acadêmica</a></li>
+      <li><a href="#habilidades">Habilidades técnicas</a></li>
+      <li><a href="#projetos">Projetos</a></li>
+      <li><a href="#cursos">Cursos complementares</a></li>
+      <li><a href="#idiomas">Idiomas</a></li>
+      <li><a href="#comportamental">Habilidades comportamentais</a></li>
+      <li><a href="#curriculo">Currículo</a></li>
+      <li><a href="#contato">Contato</a></li>
+    </ul>
+    <button class="nav-toggle" id="navToggle"><i class="fas fa-bars"></i></button>
+  </nav>
+
+  <section class="hero" id="sobre">
+    <div class="hero-bg-blobs">
+      <div class="blob blob1"></div>
+      <div class="blob blob2"></div>
+      <div class="blob blob3"></div>
+    </div>
+    <div class="hero-content fade-in">
+      <div class="photo-wrapper">
+        <div class="photo-circle">
+          <img src="foto.png" alt="Foto de perfil" class="profile-photo">
+        </div>
+      </div>
+
+      <h1 class="hero-name">Álex dos Santos Freitas</h1>
+      <p class="hero-role">Desenvolvedor Web Front-end</p>
+
+      <div class="hero-bio">
+        <p>Seja bem-vindo(a)! Sou formando do curso técnico em informática com habilidades voltadas ao desenvolvimento web front-end. Valorizo muito as qualidades interpessoais, especialmente a empatia, pois acredito que elas contribuem tanto para o crescimento profissional quanto pessoal. Além de aprender sobre o desenvolvimento web, gosto muito de aprender novos idiomas. Atualmente curso libras, além de já ter feito cursos de inglês e espanhol. Estou em busca da minha primeira oportunidade como desenvolvedor web front-end para aplicar na prática os conhecimentos que venho adquirindo.</p>
+      </div>
+
+      <a href="#contato" class="btn-hero">Entre em contato comigo<i class="fas fa-arrow-down"></i></a>
+    </div>
+
+    <div class="scroll-indicator">
+      <div class="scroll-line"></div>
+    </div>
+  </section>
+
+  <section class="section section-alt" id="formacao">
+    <div class="section-inner">
+      <div class="section-header fade-up">
+        <h2>Formação acadêmica:</h2>
+      </div>
+      <div class="edu-grid fade-up">
+        <div class="edu-card">
+          <div class="edu-icon"><i class="fas fa-university"></i></div>
+          <div class="edu-info">
+            <span class="edu-degree">Ensino Médio Integrado ao Técnico em Informática</span>
+            <h3 class="edu-school">EEEP Luiza de Teodoro Vieira</h3>
+            <p class="edu-period"><i class="fas fa-calendar-alt"></i> 2024 – 2026 (Em conclusão)</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="section" id="habilidades">
+    <div class="section-inner">
+      <div class="section-header fade-up">
+        <h2>Habilidades técnicas:</h2>
+      </div>
+      <div class="skills-grid fade-up">
+        <div class="skill-card">
+          <div class="skill-icon"><i class="fab fa-html5"></i></div>
+          <span class="skill-name">HTML5</span>
+          <p class="skill-desc">Estruturo páginas web com HTML5 semântico, organizando conteúdo com clareza e boas práticas.</p>
+        </div>
+        <div class="skill-card">
+          <div class="skill-icon"><i class="fas fa-pencil-ruler"></i></div>
+          <span class="skill-name">Design Gráfico</span>
+          <p class="skill-desc">Desenvolvo layouts e materiais gráficos equilibrando estética e comunicação na web.</p>
+        </div>
+        <div class="skill-card">
+          <div class="skill-icon"><i class="fab fa-css3-alt"></i></div>
+          <span class="skill-name">CSS3</span>
+          <p class="skill-desc">Estilizo interfaces com CSS3, trabalhando com layouts, responsividade e bom design.</p>
+        </div>
+        <div class="skill-card">
+          <div class="skill-icon"><i class="fas fa-brain"></i></div>
+          <span class="skill-name">Lógica de Programação</span>
+          <p class="skill-desc">Aplico raciocínio lógico para desenvolver soluções eficientes e bem estruturadas.</p>
+        </div>
+        <div class="skill-card">
+          <div class="skill-icon"><i class="fab fa-js"></i></div>
+          <span class="skill-name">JavaScript</span>
+          <p class="skill-desc">Desenvolvo funcionalidades dinâmicas com JavaScript, como validações, animações e interações do usuário.</p>
+        </div>
+        <div class="skill-card">
+          <div class="skill-icon"><i class="fas fa-robot"></i></div>
+          <span class="skill-name">Inteligência Artificial</span>
+          <p class="skill-desc">Utilizo ferramentas de inteligência artificial para otimizar fluxos de trabalho e resolver problemas.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="section section-alt" id="projetos">
+    <div class="section-inner">
+      <div class="section-header fade-up">
+        <h2>Projetos:</h2>
+      </div>
+      <div class="projects-grid fade-up">
+        <div class="project-card">
+          <div class="project-thumb" style="background: linear-gradient(135deg,#a8c5a0, #c8dfc4);">
+            <i class="fas fa-brain project-thumb-icon"></i>
+          </div>
+          <div class="project-body">
+            <div class="project-tags">
+              <span class="tag"><i class="fab fa-html5"></i> HTML5</span>
+              <span class="tag"><i class="fab fa-css3-alt"></i> CSS3</span>
+              <span class="tag"><i class="fab fa-js"></i> JavaScript</span>
+            </div>
+            <h3>Sua Saúde Mental</h3>
+            <p>Site informativo sobre saúde mental. Abordando o que é saúde mental, mitos e fatos, dicas de autoajuda e canais de suporte. Contém um questionário interativo de autoavaliação emocional com resultado personalizado.</p>
+            <p class="project-origin"><i class="fas fa-graduation-cap"></i> Projeto acadêmico - Disciplina curricular de HTML/CSS</p>
+            <div class="project-links">
+              <a href="https://github.com/alexfreitastech/sua-saude-mental" target="_blank" class="btn-proj"><i class="fab fa-github"></i> Código</a>
+              <a href="https://alexfreitastech.github.io/sua-saude-mental/" target="_blank" class="btn-proj btn-proj-live"><i class="fas fa-external-link-alt"></i> Ver projeto</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="project-card">
+          <div class="project-thumb" style="background: linear-gradient(135deg, #a8c5a0, #c8dfc4);">
+            <i class="fas fa-record-vinyl project-thumb-icon"></i>
+          </div>
+          <div class="project-body">
+            <div class="project-tags">
+              <span class="tag"><i class="fab fa-html5"></i> HTML5</span>
+              <span class="tag"><i class="fab fa-css3-alt"></i> CSS3</span>
+              <span class="tag"><i class="fab fa-js"></i> JavaScript</span>
+            </div>
+            <h3>Memória em Vinil</h3>
+            <p>Site sobre a cultura do disco de vinil. Abordando história, influência cultural e técnicas de preservação. Contém um formulário para colecionadores compartilharem suas experiências, que ficam salvas e visíveis em um mini fórum.</p>
+            <p class="project-origin"><i class="fas fa-graduation-cap"></i> Projeto acadêmico — Disciplina curricular de Desenvolvimento Web</p>
+            <div class="project-links">
+              <a href="https://github.com/alexfreitastech/memoria-em-vinil" target="_blank" class="btn-proj"><i class="fab fa-github"></i> Código</a>
+              <a href="https://alexfreitastech.github.io/memoria-em-vinil/" target="_blank" class="btn-proj btn-proj-live"><i class="fas fa-external-link-alt"></i> Ver projeto</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="project-card">
+          <div class="project-thumb" style="background: linear-gradient(135deg, #a8c5a0, #c8dfc4);">
+            <i class="fas fa-laptop-code project-thumb-icon"></i>
+          </div>
+          <div class="project-body">
+            <div class="project-tags">
+              <span class="tag"><i class="fab fa-html5"></i> HTML5</span>
+              <span class="tag"><i class="fab fa-css3-alt"></i> CSS3</span>
+              <span class="tag"><i class="fab fa-js"></i> JavaScript</span>
+            </div>
+            <h3>Programação e Linguagens</h3>
+            <p>Site educativo sobre programação. Abordando sua história, linguagens, desenvolvimento web e inteligências artificiais. Na última página contém um quiz interativo de revisão sobre o conteúdo visto no site.</p>
+            <p class="project-origin"><i class="fas fa-graduation-cap"></i> Projeto acadêmico — Feira Profissional Técnica (FEPROTÉC)</p>
+            <div class="project-links">
+              <a href="https://github.com/alexfreitastech/programacao-linguagens" target="_blank" class="btn-proj"><i class="fab fa-github"></i> Código</a>
+              <a href="https://alexfreitastech.github.io/programacao-linguagens/" target="_blank" class="btn-proj btn-proj-live"><i class="fas fa-external-link-alt"></i> Ver projeto</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="section" id="cursos">
+    <div class="section-inner">
+      <div class="section-header fade-up">
+        <h2>Cursos complementares:</h2>
+      </div>
+      <div class="courses-timeline fade-up">
+        <div class="course-item">
+          <div class="course-dot"></div>
+          <div class="course-card">
+            <span class="course-year">Março de 2026</span>
+            <h3>Espanhol 1</h3>
+            <p class="course-place"><i class="fas fa-graduation-cap"></i>Instituto Federal de Ciência e Tecnologia do Rio Grande do Sul</p>
+            <span class="course-badge">30h</span>
+          </div>
+        </div>
+        <div class="course-item">
+          <div class="course-dot"></div>
+          <div class="course-card">
+            <span class="course-year">Março de 2026</span>
+            <h3>Seja Mestre Habilidades Interpessoais</h3>
+            <p class="course-place"><i class="fas fa-graduation-cap"></i>Sebrae</p>
+            <span class="course-badge">2h</span>
+          </div>
+        </div>
+        <div class="course-item">
+          <div class="course-dot"></div>
+          <div class="course-card">
+            <span class="course-year">Fevereiro de 2026</span>
+            <h3>Fundamentos do Design Gráfico</h3>
+            <p class="course-place"><i class="fas fa-graduation-cap"></i>Fundação Bradesco</p>
+            <span class="course-badge">6h</span>
+          </div>
+        </div>
+        <div class="course-item">
+          <div class="course-dot"></div>
+          <div class="course-card">
+            <span class="course-year">Fevereiro de 2026</span>
+            <h3>Fundamentos de TI: Hardware e Software</h3>
+            <p class="course-place"><i class="fas fa-graduation-cap"></i>Fundação Bradesco</p>
+            <span class="course-badge">7h</span>
+          </div>
+        </div>
+        <div class="course-item">
+          <div class="course-dot"></div>
+          <div class="course-card">
+            <span class="course-year">Fevereiro de 2026</span>
+            <h3>Fluência em Inteligência Artificial</h3>
+            <p class="course-place"><i class="fas fa-graduation-cap"></i>Fundação Bradesco</p>
+            <span class="course-badge">4h</span>
+          </div>
+        </div>
+        <div class="course-item">
+          <div class="course-dot"></div>
+          <div class="course-card">
+            <span class="course-year">Fevereiro de 2026</span>
+            <h3>HCCDA - Tech Essentials Course</h3>
+            <p class="course-place"><i class="fas fa-graduation-cap"></i>Huawei ICT Academy - Instituto Federal de Ciência e Tecnologia do Ceará</p>
+            <span class="course-badge">24h</span>
+          </div>
+        </div>
+        <div class="course-item">
+          <div class="course-dot"></div>
+          <div class="course-card">
+            <span class="course-year">Fevereiro de 2026</span>
+            <h3>Programador Web em Tecnologias Front-end</h3>
+            <p class="course-place"><i class="fas fa-graduation-cap"></i>Instituto Federal de Ciência e Tecnologia de Minas Gerais</p>
+            <span class="course-badge">30h</span>
+          </div>
+        </div>
+        <div class="course-item">
+          <div class="course-dot"></div>
+          <div class="course-card">
+            <span class="course-year">Dezembro de 2025</span>
+            <h3>Fábrica de Programadores: Programando Games e IA</h3>
+            <p class="course-place"><i class="fas fa-graduation-cap"></i>Universidade Federal do Ceará</p>
+            <span class="course-badge">200h</span>
+          </div>
+        </div>
+        <div class="course-item">
+          <div class="course-dot"></div>
+          <div class="course-card">
+            <span class="course-year">Junho de 2025</span>
+            <h3>Língua Inglesa</h3>
+            <p class="course-place"><i class="fas fa-graduation-cap"></i>Centro Cearence de Idiomas</p>
+            <span class="course-badge">180h</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="section section-alt" id="idiomas">
+    <div class="section-inner">
+      <div class="section-header fade-up">
+        <h2>Idiomas:</h2>
+      </div>
+      <div class="languages-row fade-up">
+        <div class="lang-card">
+          <div class="lang-flag">🇺🇸</div>
+          <div class="lang-info">
+            <h3>Inglês</h3>
+            <span class="lang-level intermediate">Pré-Intermediário</span>
+          </div>
+        </div>
+        <div class="lang-card">
+          <div class="lang-flag">🇧🇷</div>
+          <div class="lang-info">
+            <h3>Libras</h3>
+            <span class="lang-level intermediate">Básico</span>
+          </div>
+        </div>
+        <div class="lang-card">
+          <div class="lang-flag">🇪🇸</div>
+          <div class="lang-info">
+            <h3>Espanhol</h3>
+            <span class="lang-level intermediate">Básico</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="section" id="comportamental">
+    <div class="section-inner">
+      <div class="section-header fade-up">
+        <h2>Habilidades comportamentais:</h2>
+      </div>
+      <div class="soft-grid fade-up">
+        <div class="soft-card">
+          <div class="soft-emoji">❤️</div>
+          <h3>Empatia</h3>
+          <p>Me relaciono bem com as pessoas, compreendendo suas necessidades com sensibilidade e construindo conexões genuínas baseadas na escuta e no respeito mútuo.</p>
+        </div>
+        <div class="soft-card">
+          <div class="soft-emoji">🌱</div>
+          <h3>Aprendizado contínuo</h3>
+          <p>Estou sempre em busca de novos conhecimentos, encarando cada desafio como uma oportunidade de crescimento com curiosidade e dedicação.</p>
+        </div>
+        <div class="soft-card">
+          <div class="soft-emoji">📋</div>
+          <h3>Organização e responsabilidade</h3>
+          <p>Sou organizado e confiável, planejando minhas atividades com disciplina para garantir que cada compromisso seja cumprido com seriedade e qualidade.</p>
+        </div>
+        <div class="soft-card">
+          <div class="soft-emoji">💬</div>
+          <h3>Comunicação interpessoal</h3>
+          <p>Me comunico com clareza e empatia, escutando ativamente quem está ao meu redor e facilitando o entendimento entre pessoas e equipes.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="section section-alt" id="curriculo">
+    <div class="section-inner">
+      <div class="section-header fade-up">
+        <h2>Currículo:</h2>
+      </div>
+      <div class="cv-wrapper fade-up">
+        <div class="cv-card">
+          <div class="cv-preview">
+            <div class="cv-icon-wrap">
+              <i class="fas fa-file-pdf"></i>
+            </div>
+            <div class="cv-meta">
+              <h3>Currículo — Álex Freitas</h3>
+              <p>Atualizado em <strong>2026</strong> · PDF</p>
+            </div>
+          </div>
+          <a href="curriculo.pdf" download class="btn-cv">
+            <i class="fas fa-download"></i> Baixar Currículo
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="section" id="contato">
+    <div class="section-inner">
+      <div class="section-header fade-up">
+        <h2>Contato:</h2>
+      </div>
+      <div class="contact-wrapper fade-up">
+        <div class="contact-links">
+          <a href="https://wa.me/5585994009644" target="_blank" class="contact-btn whatsapp">
+            <i class="fab fa-whatsapp"></i>
+            <div>
+              <span class="cta-label">WhatsApp</span>
+              <span class="cta-sub">+55 (85) 99400-9644</span>
+            </div>
+          </a>
+          <a href="mailto:alexfreitastech@gmail.com" class="contact-btn email">
+            <i class="fas fa-envelope"></i>
+            <div>
+              <span class="cta-label">E-mail</span>
+              <span class="cta-sub">alexfreitastech@gmail.com</span>
+            </div>
+          </a>
+          <a href="https://www.linkedin.com/in/alexfreitastech" target="_blank" class="contact-btn linkedin">
+            <i class="fab fa-linkedin-in"></i>
+            <div>
+              <span class="cta-label">LinkedIn</span>
+              <span class="cta-sub">alexfreitastech</span>
+            </div>
+          </a>
+          <a href="https://github.com/alexfreitastech" target="_blank" class="contact-btn github">
+            <i class="fab fa-github"></i>
+            <div>
+              <span class="cta-label">GitHub</span>
+              <span class="cta-sub">alexfreitastech</span>
+            </div>
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <footer class="footer">
+    <p>Feito por Álex Freitas</p>
+    <p class="footer-sub">© 2025 · Todos os direitos reservados</p>
+  </footer>
+
+  <button class="back-to-top" id="backToTop"><i class="fas fa-arrow-up"></i></button>
+
+  <script src="script.js"></script>
+</body>
+</html>
