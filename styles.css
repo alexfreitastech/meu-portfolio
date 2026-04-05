@@ -742,3 +742,64 @@ body {
   .section { padding: 2.5rem 1.2rem; }
   .hero { padding: 6rem 1.5rem 3rem; }
 }
+.pdf-thumb {
+  position: relative;
+  width: 48px;
+  height: 60px;
+  background: #fff;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  box-shadow: 2px 2px 0 #ccc;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+
+.pdf-fold {
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 14px;
+  height: 14px;
+  background: #f0f0f0;
+  border-bottom-left-radius: 3px;
+  border-bottom: 1px solid #ddd;
+  border-left: 1px solid #ddd;
+}
+
+.pdf-lines {
+  padding: 18px 6px 6px;
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+
+.pdf-line {
+  height: 2px;
+  background: #ccc;
+  border-radius: 2px;
+  width: 100%;
+}
+
+.pdf-line.accent {
+  height: 3px;
+  background: #e24b4a;
+  width: 70%;
+}
+
+.pdf-line.w80 { width: 80%; }
+.pdf-line.w60 { width: 60%; }
+.pdf-line.w75 { width: 75%; }
+
+.pdf-badge {
+  position: absolute;
+  bottom: 6px;
+  left: 50%;
+  transform: translateX(-50%);
+  background: #e24b4a;
+  color: #fff;
+  font-size: 8px;
+  font-weight: 600;
+  padding: 1px 5px;
+  border-radius: 2px;
+  letter-spacing: 0.5px;
+}
